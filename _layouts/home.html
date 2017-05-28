@@ -17,9 +17,11 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
 
-        <div class="post-content">
-            {{ post.content }}
+        <div class="post-preview">
+            {{ post.excerpt }}
         </div>
+
+        <p><font size=2><a href="{{ post.url | relative_url }}">显示全文</a></font></p>
 
       </li>
     {% endfor %}
