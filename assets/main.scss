@@ -203,7 +203,9 @@ dl dd > :last-child {
 blockquote {
     border-left: 4px solid #dddddd;
     padding: 0 15px;
-    color: #777777;
+    color: rgb(26, 26, 0);
+    font-size: 14px;
+    background-color: rgb(230, 230, 256);
 }
 
 blockquote > :first-child {
