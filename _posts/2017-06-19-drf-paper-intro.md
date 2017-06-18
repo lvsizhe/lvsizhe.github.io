@@ -14,8 +14,8 @@ categories: paper
 
 文章提出的基本思路是『看主导的那一维资源』(Dominant Resource)就可以了。什么意思呢？比如上面这个case，对于用户A来说，其cpu需求对池子的总CPU资源占比(share)为1/9，而memory为4/18=2/9，因此其Dominant Resource share就是memory的那个2/9，而B则为memory那个纬度的1/3。整个算法的优化目标就是让所有用户的Dominant Resource share值尽可能的"相等"。比如在上面的例子中，假定在池子中启动了x个User A的Task和y个User B的Task，那么问题就表达为:
 
-- 约束条件: x + 3y <= 9 && 4x + y <= 18, 即各纬度总分配量受限于资源池总量;
-- 2x / 9 = y / 3 (最大化的条件: Dominant Resource在池子中的占比尽可能相等, 即Dominant Resource Fairness的含义)
+> - x + 3y <= 9 && 4x + y <= 18: 即各纬度总分配量受限于资源池总量;
+> - 2x / 9 = y / 3: Dominant Resource在池子中的占比尽可能相等, 即Dominant Resource Fairness的含义
 
 由上面的方程可以解得{x=3, y=2}, 即启动3个A用户的Task，2个B用户的Task。二者分配的资源为A:{3CPUs, 12GB}, B:{6CPUs, 2GB}。
 
