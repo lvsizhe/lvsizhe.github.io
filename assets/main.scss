@@ -95,7 +95,7 @@ h5 {
 
 h6 {
     color: #777777;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 blockquote, ul, ol, dl, table, pre {
@@ -170,7 +170,7 @@ dl {
 }
 
 dl dt {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     font-style: italic;
     padding: 0;
@@ -203,11 +203,31 @@ dl dd > :last-child {
 }
 
 blockquote {
-    border-left: 4px solid #dddddd;
-    padding: 0 15px;
-    color: rgb(26, 26, 0);
-    font-size: 14px;
-    background-color: rgb(230, 230, 256);
+    border-left: 4px solid #ccc;
+    padding: 0 6px;
+    color: rgb(5, 5, 55);
+    font-size: 15px;
+    background-color: rgb(250, 250, 200);
+    position: relative
+}
+
+blockquote:before {
+    color: #ccc;
+    content:open-quote;
+    font-size:2em;
+    position:absolute;
+    left: 0px;
+    top: 16px;
+    line-height: 0.1em;
+}
+blockquote:after {
+    color: #ccc;
+    content:close-quote;
+    font-size:2em;
+    position:absolute;
+    right:0px;
+    bottom:10px;
+    line-height: 0.1em;
 }
 
 blockquote > :first-child {
