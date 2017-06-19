@@ -21,12 +21,12 @@ categories: paper
 
 在工程实现中，上面的思路可以翻译成如下算法:
 
-![drf-algo](/images/drf-algorithm.png)
+![drf-algo]({{site.url}}/images/drf-algorithm.png)
 
 这个算法的思路很简单，即维持记录当前用户的Dominant Resource的share值的大小，每次从中挑选最小的那个，只要资源足够就把这个用户的任务启动起来。
 
 在这个算法下，上述问题的执行过程为:
-![drf-eg-progress](/images/drf-eg-progress.png)
+![drf-eg-progress]({{site.url}}/images/drf-eg-progress.png)
 
 > - 刚开始的时候，假如先启动了B的一个任务，那么此时的Dom.share值为: $$\to\{A:0, B:\frac{1}{3}\}$$
 > - 因为A比较小，启动A的下一个任务。$$\to\{A:\frac{2}{9}, B:\frac{1}{3}\}$$

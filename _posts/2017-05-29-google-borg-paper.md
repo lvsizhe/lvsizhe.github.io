@@ -41,7 +41,7 @@ borg的API、尤其是Borgcfg工具的出现，使得任何一个人都可以方
 
 Borg是非常典型的Master(borgmaster)+Agent(borglet)架构。用户的操作请求提交给Master，由Master负责记录下『某某实例运行在某某机器上』这类元信息，然后Agent通过与Master通讯得知分配给自己的任务、在单机上执行管理操作。
 
-![borg-arch](/images/borg-arch.png)
+![borg-arch]({{site.url}}/images/borg-arch.png)
 
 每套borg部署称为一个cell。在Google的机房环境下，IDC和cell是1:n的关系，一般而言是一个主Cell运行着大多数的业务，和若干个特殊用途的小cell。每个cell有一组borgmaster进程，以及部署在众多机器上的borglet(一台机器一个)进程组成，管理的机器规模一般在万级别。
 
