@@ -277,7 +277,10 @@ table tr th :last-child, table tr td :last-child {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 span.frame {
