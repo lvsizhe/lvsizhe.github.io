@@ -23,7 +23,7 @@ url: "http://lvsizhe.github.io" # the base hostname & protocol for your site, e.
 github_username:  lvsizhe
 
 # Build settings
-markdown: maruku
+markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
