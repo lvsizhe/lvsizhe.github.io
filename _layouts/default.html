@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+    <!--{% include head.html %}-->
+  <head>
+    {% include mathjax_support %}
+  </head>
 
   <body>
 
     {% include header.html %}
-    {% include mathjax_support %}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
