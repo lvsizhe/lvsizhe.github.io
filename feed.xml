@@ -9,6 +9,7 @@ layout: none
         <description>{{ site.title | xml_escape }}</description>
         <link>{{ site.baseurl}}{{ site.url }}</link>  
         <atom:link href="{{ site.baseurl}}{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />  
+        <language>zh-CN</language>
         {% for post in site.posts limit:10 %}  
         <item>  
             <title>{{ post.title }}</title>  
