@@ -128,7 +128,7 @@ a {
     list-style-position: inside;
 }
 
-.post-text .footnotes ol {
+.post-text .footnotes > ol {
     list-style-type: decimal;
     list-style-position: outside;
 }
