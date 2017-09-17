@@ -2,6 +2,7 @@
 layout: post
 title: DRF调度算法(比较篇)
 categories: paper
+tags: scheduler
 ---
 
 在DRF论文中，将DRF与以下两个调度算法进行了比较：

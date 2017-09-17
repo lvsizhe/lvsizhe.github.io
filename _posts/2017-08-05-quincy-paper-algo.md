@@ -2,6 +2,7 @@
 layout: post
 title: Quincy调度算法二(算法篇)
 categories: paper
+tags: scheduler
 ---
 
 前面一篇对queue-based的经典策略做了一个概要性的介绍。整体来说，queue-based的调度算法是一种"启发式"的算法，这类算法一般给人一种"拼凑"感，有一定道理但又让人有些"放心不下"，深怕在啥地方存在什么漏洞。Quincy这篇论文则提出了一个全新的建模工具，将调度问题转变成了一个Flow-based的最优化问题，并用此工具给出了基于数据局部性的一个最优化调度策略，让人耳目一新。

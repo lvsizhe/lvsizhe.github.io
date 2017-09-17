@@ -2,6 +2,7 @@
 layout: post
 title: Heracles论文阅读概览
 categories: paper
+tags: cluster-management scheduler isolate
 ---
 
 Heracles是Stanford的研究者在Google的支持下输出的研究成果，是一个算法框架的名字，论文发表于ISCA’15上，是对borg论文的一个有价值的补充。一般而言，在看完Borg论文以后，也建议阅读一下这篇文章，了解一下在一个集群操作系统上进行大混布，需要考虑的单机隔离问题。

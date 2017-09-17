@@ -2,6 +2,7 @@
 layout: post
 title: 我的第一篇博客
 categories: misc
+tags: life
 ---
 
 心里面一直痒痒的想写些啥，可总没有付之于行动。这两天因为一些触动，决定把自己荒置已久的github建设起来，开博是第一步。

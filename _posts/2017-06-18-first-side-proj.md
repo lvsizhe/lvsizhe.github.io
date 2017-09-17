@@ -2,6 +2,7 @@
 layout: post
 title: 关于第一个side project
 categories: side-proj
+tags: side-project
 ---
 
 两年前冲动报了一个英语培训，这两天就要到期结束了。如前面所说，计划启动一些小的side project，在周末闲暇之时，做着玩玩。一来解解自己coding的瘾，二来动手熟悉一下一些基本的思路方法。side project不求大，就是一些小的、能够说明基本原理的demo级别的程序即可。

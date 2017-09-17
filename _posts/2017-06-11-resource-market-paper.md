@@ -2,6 +2,7 @@
 layout: post
 title: 资源竞价
 categories: paper
+tags: cluster-management
 ---
 
 今天下午跑到人大的咖啡厅看了一篇小论文，挺有意思的，因此在这里记录一下。介绍的论文（也许不是论文，只是个Technological report）题目为：《Using a market economy to provision compute resources across planet-wide clusters》，感兴趣的同学可以自行搜索下载。

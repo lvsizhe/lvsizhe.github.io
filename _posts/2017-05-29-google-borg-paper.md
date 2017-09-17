@@ -2,6 +2,7 @@
 layout: post
 title: Google的Borg论文都说了啥?
 categories: paper
+tags: distributed-system cluster-management
 ---
 
 一直以来，Google大名鼎鼎的Borg没有对业界公开其资料，大家只能从各种渠道拼凑出系统大致的模样。在EuroSys’15上，Google终于发表了介绍Borg的论文，揭开了它神秘的面纱。为了缩短大家的阅读时间，整理了这篇文章，阐述下论文披露出来的一些关键设计思想，并结合自己的理解进行一些探讨。

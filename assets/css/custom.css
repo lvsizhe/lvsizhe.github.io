@@ -100,3 +100,65 @@ html, body {
 a {
     color: #57A3E8;
 }
+
+.posts li {
+    list-style-type: none;
+}
+
+.posts .post p {
+    margin: 6px 0px;
+    text-indent: 0em;
+}
+
+.post-text img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.post-text p {
+    margin: 6px 0px;
+    text-indent: 2em;
+}
+
+.post-text ul, .post-text ol {
+    padding-left: 30px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.post-text .footnotes ol {
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+
+.post-text blockquote {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2em;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-left: 3px solid #ccc;
+    background-color:#f1f1f1;
+}
+
+.post-text blockquote > p {
+    margin: 0px;
+    text-indent: 0px;
+}
+
+.post-text h2 {
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: dotted; /* 2 */
+}
+
+.post-text h3 {
+    font-weight: border;
+    font-size: 1.2em;
+    text-decoration: dotted;
+    color: #930000;
+}

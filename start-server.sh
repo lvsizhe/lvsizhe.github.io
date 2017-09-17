@@ -1,3 +1,4 @@
 #! /bin/bash
 
-nohup bundle exec jekyll serve --incremental --port 8080 > nohup.out &
+rm _site -rf
+bundle exec jekyll serve --incremental --port 8080 

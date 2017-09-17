@@ -2,6 +2,7 @@
 layout: post
 title: Firmament调度算法一(模型介绍)
 categories: paper
+tags: scheduler
 ---
 
 今天开始阅读一篇OSDI'16上发表的论文，全名为《Firmament: Fast, Centralized Cluster Scheduling at Scale》，比较新。和前面DRF一样，也是一片非常经典的论文，因此也准备采用多篇blog的方式，进行分解精读。论文中提到的MCMF，是对调度问题的非常好的建模，在这篇论文分解阅读完成以后，很有必要对类似算法进行一个比较细致的梳理和比较。

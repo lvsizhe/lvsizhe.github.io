@@ -2,6 +2,7 @@
 layout: post
 title: Firmament调度算法二(算法篇)
 categories: paper
+tags: scheduler
 ---
 
 这周花时间把Firmament剩余部分看完了，说实话有些失望。论文并没有想象中的那么好，因此决定简单的记录一下，就转去阅读Quincy。Firmament是Quincy的改进版，主要贡献在于结合调度的场景需求提高了MCMF的执行效率，让Flow-based的调度算法具备现实的工程意义。

@@ -2,6 +2,7 @@
 layout: post
 title: QoS感知调度Paragon核心思想
 categories: paper
+tags: scheduler isolate
 ---
 
 这次介绍的论文来自于计算机界的核心期刊：《ACM Transactions on Computer System》，全名是《QoS-Aware Scheduling in Heterogeneous Datacenters with Paragon》。文章刊登于2013年，有些年头了，但如果留意过之前介绍的几篇论文的引文，就会注意到这篇论文被后面的研究者多次引用、是一篇非常经典的论文。

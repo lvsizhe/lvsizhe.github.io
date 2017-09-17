@@ -2,6 +2,7 @@
 layout: post
 title: Quincy调度算法一(背景篇)
 categories: paper
+tags: scheduler
 ---
 
 这个周末抱着新到货的Sony DPT-RP1跑到国家图书馆装逼，阅读的主要内容就是SOSP'09发表的Quincy论文(《Quincy: Fair Scheduling for Distributed Computing Clusters》)。论文发表的时间比较早，非常经典，***其主要贡献在于将全局资源调度问题，以图的形式(Flow-based)表达并用标准的图算法求解；且后续的策略调整，可以通过引入额外的"策略节点"和调整边及权重的方式来施行，非常易于迭代***。在论文中，作者用这个模型，给出了一个将计算任务"最优地"调度到数据所在地的有效算法，具有非常高的实践价值。论文的铺垫部分比较长，一方面可以当做经典Queue-based调度算法的Survey，另一方面又能作为Flow-based类型算法学习的起点[^1]。
