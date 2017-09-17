@@ -2,6 +2,7 @@
 layout: post
 title: DRF调度算法(介绍篇)
 categories: paper
+tags: paper scheduler
 ---
 
 今天记录的论文为: 《Dominant Resource Fairness: Fair Allocation of Multiple Resource Types》(nsdi'11)。这篇论文介绍了在多资源纬度场景下（比如CPU和Memory）的调度算法，证明了算法所具备的几个重要的特性。写这篇博文的时候，只看了其中的前几节，摸清楚整个算法的大致思路，后面的数学证明还没看。因此这篇博文严格说只是半篇介绍，作为后面介绍的一个引子。
