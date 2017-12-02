@@ -2,7 +2,7 @@
 layout: post
 title: 延时敏感服务QoS根因分析
 categories: paper
-tags: paper
+tags: isolate
 ---
 
 这两三个月的周末，基本保持隔周外出的节奏，再加上需要处理搬家的事情，一直没有时间静下心来阅读论文。这个周末终于有时间了，赶紧阅读了积压了需求的这篇论文。
