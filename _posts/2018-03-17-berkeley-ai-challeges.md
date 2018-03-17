@@ -64,7 +64,7 @@ AI技术的发展离不开对大规模数据的处理，但是由于IoE等AI应�
 
 这9个研究领域和前面发展趋势的对应关系如下图：
 
-![ai-trends-research-map]({{site.url}}/images/ai-trends-research-map.png){:width="80%"}
+![ai-trends-research-map]({{site.url}}/images/ai-trends-research-map.png){:width="60%"}
 
 
 ### R1: continual learning
