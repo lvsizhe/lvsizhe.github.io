@@ -55,6 +55,8 @@ tags: AI mooc
 
 在训练阶段，我们的最终目标是让$$e = E_{dev} - E_{human}$$最小，并且可以简单直观的认为$$e = (E_{train} - E_{human}) + (E_{dev} - E_{train})$$，即分解成两段。当$$E_{train} - E_{human} > E_{dev} - E{train}$$的时候，我们认为当前的DNN训练结果准确率不足是主导因素，即High bias/Under-fitting了；而当$$E_{train} - E_{human} < E_{dev} - E{train}$$的时候，泛化能力不足是主导因素，是High Variance/Over-fitting了。
 
+## 可行的调整方向
+
 如果一个模型的训练被判定为High Bias，说明这个模型的表达能力不足以表达目标问题，因此可以考虑如下几种调整方式：
 - 构建更大拓扑的DNN模型，比如使用更多的Layer或者增加Layer中的神经元的数量
 - 训练更长的时间，或者采用更好的优化手段，降低$$E_{train}$$的值。如采用momentm, RMSprop, Adam等
