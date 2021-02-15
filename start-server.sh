@@ -1,4 +1,4 @@
 #! /bin/bash
 
-rm _site -rf
+rm -rf _site
 bundle exec jekyll serve --incremental --watch --port 8080 > server.log 2>&1 & 
