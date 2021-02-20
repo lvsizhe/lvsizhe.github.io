@@ -2,7 +2,7 @@
 layout: post
 categories: course
 title: 经典MapReduce论文阅读记录
-tags: distributed-system mooc mit6824
+tags: distributed-system mooc mit6824 bigdata
 ---
 
 前一阶段将主要的学习精力放在了深度学习上，过了一遍Coursera上的deeplearning.ai系列课程，对DNN的基本概念有了一定的了解。近期会将技术学习的重心回归到我的本行分布式系统上。从某种程度上来说，技术热点什么的，随着行业的发展会不停的变化；但一些基础性的东西，却能够长期的存在下去，因此有必要每隔一段时间做一些基本功的夯实动作，结合当前时代特点，沉淀历史知识中最精华的部分。
